@@ -31,7 +31,7 @@ app.get('/', function(req, res) {
 
 io.sockets.on('connection', function (socket) {
   var ctr = 0;
-  socket.on('scroll', function (data) {
+  socket.on('scroll', function () {
     socket.emit('scroll-data', {html: "interesting data: " + ctr});
     ctr++;
   });
