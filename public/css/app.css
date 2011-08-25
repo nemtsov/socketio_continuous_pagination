@@ -1,0 +1,14 @@
+body {
+  width: 700px;
+}
+
+ol {
+  font-size: 120%;
+}
+
+ol li {
+  color: #777;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
