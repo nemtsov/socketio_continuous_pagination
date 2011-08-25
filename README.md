@@ -1,10 +1,11 @@
 Socket.IO based Continuous Pagination
 =====================================
 
-Install
--------
+Install & Run
+-------------
 
-git co 
-npm install
-node app
+    git clone https://github.com/georgecalm/socketio_continuous_pagination.git
+    cd socketio_continuous_pagination
+    npm install
+    node app
 
